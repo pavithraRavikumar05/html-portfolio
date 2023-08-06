@@ -1,0 +1,98 @@
+
+body, h1, h2, h3, h4, h5, h6, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+
+/* Global styles */
+header {
+    background-color: #f2f2f2;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+.section {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Home section */
+h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 18px;
+}
+
+/* Projects section */
+.project {
+    margin-bottom: 40px;
+}
+
+.project h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.project p {
+    font-size: 16px;
+}
+
+/* About section */
+h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+/* Contact section */
+h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+footer {
+    background-color: #f2f2f2;
+    padding: 10px 0;
+    text-align: center;
+}
+
+/* Media queries */
+@media screen and (max-width: 768px) {
+    h1 {
+        font-size: 30px;
+    }
+    p {
+        font-size: 16px;
+    }
+    .section {
+        padding: 30px 0;
+    }
+}
